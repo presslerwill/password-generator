@@ -20,6 +20,7 @@ function optionCheck() {
     let numVal = numbers.checked;
     let symVal = symbols.checked;
     if ( numVal && symVal ) {
+        chars = characters.length;
         realChars = characters;
         return;
     }
