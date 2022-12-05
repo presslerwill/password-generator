@@ -7,7 +7,7 @@ body {
     font-family: 'Karla', sans-serif;
 }
 .container {
-    width: 500px;
+    width: 67%;
     height: 300px;
     background-color: #1F2937;
     color: white;
@@ -46,4 +46,12 @@ h1 {
 
 .options {
     margin: 10px;
+}
+
+#genPassword {
+    background-color: #4ADF86;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
 }
